@@ -13,7 +13,7 @@ function PositiveCounter(){
             })
         }, 1000)
         return() => clearInterval(interval)
-    });
+    }, []);
     return <Card>{counter}</Card>
 }   
 export default PositiveCounter;
