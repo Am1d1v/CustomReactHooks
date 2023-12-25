@@ -1,9 +1,12 @@
-import './App.css';
+import NegativeCounter from './components/NegativeCounter';
+import PositiveCounter from './components/PositiveCounter';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Custom</h1>
+      <PositiveCounter />
+      <NegativeCounter />
     </div>
   );
 }
